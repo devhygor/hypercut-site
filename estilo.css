@@ -81,6 +81,36 @@ a {
 .lead {
   font-size: 19px;
 }
+.com-youtube {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f2f1f3;
+  border-radius: 14px;
+  padding: 14px 22px;
+  margin: 28px 0 8px;
+}
+.com-youtube img {
+  flex: none;
+  height: auto;
+}
+.com-youtube p {
+  margin: 0;
+  color: #3a3d45;
+  font-size: 15px;
+}
+.com-youtube strong {
+  color: #16181e;
+}
+.com-youtube a {
+  color: #c4302b;
+}
+@media (max-width: 560px) {
+  .com-youtube {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 .cartoes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
